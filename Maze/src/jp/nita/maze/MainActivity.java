@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 
 		mGLSurfaceView = new GLSurfaceView(this);
-		mGLSurfaceView.setEGLContextClientVersion(2);
+		mGLSurfaceView.setEGLContextClientVersion(1);
 		mGLSurfaceView.setRenderer(new MazeRenderer());
 		setContentView(mGLSurfaceView);
 	}
